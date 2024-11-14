@@ -1,7 +1,5 @@
 # Extract Roads using GRASS GIS
 
-Only Windows now
-
 ## Installation
 
 Install GRASS GIS using OSGeo4W installer. You can use [https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64-v1.exe](https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
