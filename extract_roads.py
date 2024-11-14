@@ -75,6 +75,7 @@ def road_extraction_grass(input_data, output_data):
             if platform.system().lower()  == 'windows':
                 gisrc = os.path.join(gisdb, location, mapset, ".grassrc")
                 os.environ['GISRC'] = gisrc
+            
             grass.create_project(os.path.join(gisdb, location), epsg=epsg)
             gsetup.init(gisdb, location, mapset)
 
