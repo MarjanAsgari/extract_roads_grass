@@ -1,7 +1,5 @@
 # Extract Roads using GRASS GIS
 
-Only Windows now
-
 ## Installation
 
 Install GRASS GIS using OSGeo4W installer. You can use [https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64-v1.exe](https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
@@ -15,7 +13,7 @@ Note: We do not need any conda or pip env.
 When the installation is finished, search for "OSGEO4W Shell" on your computer. Now the python script should be run in this shell to have access to both gdal and grass.
 
 ```bash
-python extract_roads.py -i <csv_path> -wd <work_dir>
+python extract_roads.py -i <input> -o <output>
 ```
 - `-i`, `--input_csv`: The path to csv file that has one column in which we have all the skeletons that we want to run the extract tool on.
-- `-wd`, `--work_dir`: Working Directory
+- `-o`, `--work_dir`: Working Directory
